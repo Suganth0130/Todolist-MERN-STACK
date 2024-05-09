@@ -1,0 +1,147 @@
+
+body{
+    margin: 0;
+}
+
+.homeConatainer{ 
+    padding-top: 300px;
+    gap: 400px; 
+    display: flex;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.tododiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgba(225, 232, 238, 0.32);
+    height: auto;
+    width: 800px;
+    padding: 2rem;
+}
+
+.todotext{
+    font-size: 100px;
+    color: rgba(230, 230, 230, 0.543);
+    padding: 10px;
+}
+
+.task{
+
+    background-color: rgba(225, 232, 238, 0.32);
+    color: white;
+    /* width: 420px; */
+    /* height: 5rem; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap:7rem;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.deleteicon {
+   
+    /* padding-left: 70px; */
+    font-size: 30px;
+    /* padding-top: 6px; */
+    
+}
+
+.circle{
+    
+    font-size: 20px;
+    /* padding-bottom: 5px; */
+    /* margin-left: 10px; */
+}
+
+.line{
+    text-decoration:line-through ;
+}
+
+.start{
+    background-color: black;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+
+.paragraph{
+    color: aliceblue;
+    font-size: 60px;
+}
+
+.paragraphdiv{
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 300px;
+    padding-left: 100px;
+}
+
+/* App.css */
+.animated-text {
+    animation-name: slideIn;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+
+  .homediv{
+    background-color: black;
+    background-size: cover;
+    height: 180vh;
+
+  }
+  
+  .h1{
+    font-size: 70px;
+  }
+
+  .input{
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+
+  .button{
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    background-color: aliceblue;
+  }
+
+  .textper{
+    color: white;
+    font-size: 75px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+  }
+

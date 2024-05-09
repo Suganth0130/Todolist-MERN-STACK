@@ -1,0 +1,20 @@
+.calendar-container {  
+    font-family: 'Lato, sans-serif';
+    border-radius: 10px; 
+  }
+  
+  .calendar-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .calendar-wrapper {
+    border: 2px solid #0f0b0b;
+  }
+  
+  .custom-calendar {
+    height: 500px;
+    margin: 10px; 
+  }
+  
